@@ -16,10 +16,10 @@
 
 ## 示例
 
-脚本 `main.py` 会在传感器检测到声音时打印一条消息。安装 `RPi.GPIO` 包并运行脚本：
+脚本 `main.py` 会在传感器检测到声音时打印一条消息。安装 `lgpio` 包并运行脚本：
 
 ```bash
-pip install RPi.GPIO
+pip install lgpio
 python main.py
 ```
 
