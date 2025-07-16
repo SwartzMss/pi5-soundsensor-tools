@@ -6,7 +6,7 @@
 
 下图展示了接线方式。声音传感器板通常有 `VCC`、`GND` 和 `OUT` 三个引脚，与树莓派的连接如下：
 
-![设备接线](doc/device.jpg)
+<img src="doc/device.jpg" alt="Device" width="300" />
 
 - `VCC` → 引脚 1 (3.3 V)
 - `GND` → 引脚 6 (GND)
