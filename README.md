@@ -16,11 +16,11 @@
 
 ## 示例
 
-脚本 `example.py` 会在传感器检测到声音时打印一条消息。安装 `RPi.GPIO` 包并运行脚本：
+脚本 `main.py` 会在传感器检测到声音时打印一条消息。安装 `RPi.GPIO` 包并运行脚本：
 
 ```bash
 pip install RPi.GPIO
-python example.py
+python main.py
 ```
 
-如果你使用不同的 GPIO 引脚，请在脚本中修改 `PIN_SOUND` 常量。
+如果你使用不同的 GPIO 引脚，请在 `sound_sensor.py` 中修改 `DEFAULT_PIN` 常量。
